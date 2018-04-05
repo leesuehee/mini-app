@@ -1,0 +1,35 @@
+{
+  "name": "multistep-checkout",
+  "version": "1.0.0",
+  "description": "A multistep checkout experience ",
+  "main": "server.js",
+  "scripts": {
+    "build": "webpack --watch",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leesuehee/mini-app.git"
+  },
+  "author": "suehee lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leesuehee/mini-app/issues"
+  },
+  "homepage": "https://github.com/leesuehee/mini-app#readme",
+  "dependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.28.11",
+    "express": "^4.16.3",
+    "mongodb": "^3.0.5",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.3",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "style-loader": "^0.20.3",
+    "webpack": "^2.7.0"
+  }
+}
